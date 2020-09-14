@@ -1,0 +1,175 @@
+body{
+    margin:0;
+    background-color:hsl(229, 57%, 11%) ;
+    font-family: 'Raleway', sans-serif;
+     
+}
+.top-container{
+    background-color:hsl(229, 57%, 11%) ; 
+    height: 600px;
+    position: relative;
+
+}
+.bottom-image{
+    z-index: 1;
+    position:absolute;
+    margin-top: 380px;
+}
+.child{
+    z-index: 2;
+    position:absolute;
+}
+.rectangle{
+    height:115px;
+    width:500px;
+    background-color: hsl(228, 56%, 26%);
+    margin-left: 650px;
+    margin-top: 340px;
+    border-radius: 10px;
+
+    
+}
+.curved{
+    margin-top: 270px;
+    margin-left: 290px;
+
+    height:190px;
+    width:330px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+}
+.logo{
+  position: relative;
+  margin-top:20px;
+  margin-left:27px;
+}
+
+.small-box{
+    background-color: hsl(229, 57%, 11%);
+    
+    width: 40px;
+    height: 40px;
+    border-top-width: 200px;
+    
+    position: absolute;
+    border-radius: 5px;
+}
+.box1{
+    margin-left: 27px;
+    margin-top: 50px;
+
+}
+.box2{
+    margin-left: 92px;
+    margin-top: 50px;
+}
+
+
+
+
+.box3{
+    margin-left:160px;
+    margin-top: 50px;
+
+}
+.icons{
+    display:block;
+    
+    
+    width:50%;
+    margin:auto;
+    padding-top:11.25px;
+    
+}
+.file{
+    display:block;
+    width:50%;
+    margin:auto;
+    padding-top: 9px;
+}
+.slider-container{
+    
+    width:100%;
+    
+}
+.slider{
+   -webkit-appearance: none;
+   position: relative;
+    margin-left:57.5px;
+    margin-top:50px;
+
+    width:85%;
+    height:15px;
+    
+    border: none;
+    border-radius:10px ; 
+    background:linear-gradient(90deg, hsl(6, 100%, 80%) ,  hsl(335, 100%, 65%) 60%, hsl(229, 57%, 11%) 60% )
+}
+.slider:hover{
+    opacity: 1;
+}
+    
+    
+
+
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+.used-data{
+    position: absolute;
+    margin-left:50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.value{
+    font-weight: 400;
+}
+.min{
+    display: inline-block;
+    font-weight:400;
+    color: white;
+    margin-left:57.5px;
+    font-size: 13px;
+}
+.max{
+    margin-left:350px;
+    display: inline-block;
+    font-weight:400;
+    color: white;
+    margin-right:2px;
+    font-size: 13px;
+}
+.dialogBox{
+    z-index:3;
+    position:absolute;
+    height:60px;
+    width:140px;
+    margin-right: 50px;
+    margin-left: 1000px;
+    margin-top: 300px;
+    border-radius: 20px 20px 0px 20px;
+    background-color: white;
+    text-align: center;
+}
+    
+
+.dialogBoxContent{
+    color:black;
+    font-weight: 700;
+    padding: 10px;
+   
+}
+.left{
+    color: gray;
+    font-size: 13px;
+}
+    
